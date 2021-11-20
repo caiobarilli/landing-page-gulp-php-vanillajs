@@ -1,0 +1,43 @@
+@charset 'UTF-8';
+
+/*--------------------------------------------------------------
+# Third party dependencies
+--------------------------------------------------------------*/
+@import 'vendor/reset';
+@import 'vendor/normalize';
+@import 'vendor/swiper';
+@import 'vendor/fontawesome';
+
+/*--------------------------------------------------------------
+# Third party dependencies (modules)
+--------------------------------------------------------------*/
+@import "../vendor/bootstrap/scss/bootstrap";
+@import "../vendor/fontawesome-free/scss/fontawesome";
+@import "../vendor/fontawesome-free/scss/solid.scss";
+@import "../vendor/fontawesome-free/scss/regular.scss";
+@import "../vendor/fontawesome-free/scss/brands.scss";
+@import "../vendor/fontawesome-free/scss/v4-shims.scss";
+
+/*--------------------------------------------------------------
+# Configuration and helpers
+--------------------------------------------------------------*/
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+/*--------------------------------------------------------------
+# Base stuff
+--------------------------------------------------------------*/
+@import 'base/typography';
+@import 'base/global';
+
+/*--------------------------------------------------------------
+# Components-of layout
+--------------------------------------------------------------*/
+@import 'components/navbar';
+@import 'components/newsletter';
+
+/*--------------------------------------------------------------
+# Layout-related sections
+--------------------------------------------------------------*/
+@import 'layout/header';
+@import 'layout/footer';

@@ -1,0 +1,28 @@
+/**
+ * Global styles
+ */
+
+
+html, body { 
+    font-family: $montserrat;
+}
+
+button  { 
+            background: transparent; padding: 0; border: 0;
+            &:focus { outline: 0; }
+        }
+
+input   {
+            &:not(:placeholder-shown) { background-color: transparent; }
+        }
+
+        
+hr  {
+        border-bottom: 1px solid $black;
+        width: 350px;
+        margin: 30px auto;
+        display: table;  
+        @media (max-width: 991px) {
+            width: 45%;
+        }
+    }

@@ -1,0 +1,39 @@
+{
+    "title": "Blank Landing Page",
+    "name": "landing-page",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/caiobarilli/landing-page.git"
+    },
+    "author": "caiopb",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.9.0",
+        "bootstrap": "4.3.1",
+        "browserslist": "^4.8.3",
+        "caniuse-lite": "^1.0.30001021",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1",
+        "popper.js": "^1.16.0",
+        "swiper": "^5.3.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "4.1.1",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-header": "2.0.7",
+        "gulp-merge-media-queries": "^0.2.1",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}

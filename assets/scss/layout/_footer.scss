@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer {
+    padding: 30px 0; color: $white; background-color: $footer-background;
+
+    &__content { @extend .container; }
+
+    &__row     { @include make-row();
+    
+        
+        @media (max-width: 1200px) {
+            padding: 0 15px;
+        }
+    
+    }
+
+    &__logo   { 
+        @include make-col(6);
+    }
+
+    &__social { 
+        @include make-col(6);
+
+        a   { font-size: 1.8em; color: $white; }
+        ul  {
+            display: table; margin: 5px 0 0 auto;
+            li  { 
+                @extend .list-inline-item;
+                margin-right: 1rem !important;
+            }
+        }
+    }
+
+    &__text { 
+        @include make-col(12);
+
+        h4 { 
+            font-family: $montserrat; font-weight: $light; font-size: 1.45em; text-align: center;
+
+            @media (max-width: 1200px) {
+                font-size: 1.25em;
+            }
+        
+            @media (max-width: 1200px) {
+                font-size: 18px;
+            }
+
+        }
+        p  { 
+            font-family: $montserrat; font-weight: $light; font-size: .9em; line-height: 1.75em; text-align: justify; margin: 20px 0;
+           
+        }
+    }
+
+}

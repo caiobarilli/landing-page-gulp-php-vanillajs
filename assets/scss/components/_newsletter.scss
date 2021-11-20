@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the newsletter component.
+// -----------------------------------------------------------------------------
+
+
+.newsletter {
+  padding: 50px 0;
+  
+  &__content { @extend .container; }
+  
+  &__form {
+    @extend .input-group;
+    position: relative; width: 65%; margin: 0 auto;
+
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+
+
+  }
+
+}
